@@ -1,141 +1,303 @@
-
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-CN">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>长岛冰茶@ - 又一个WordPress站点</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="format-detection" content="telphone=no, email=no">
-    <meta name="keywords" content="">
-    <meta name="description" itemprop="description" content="">
-    <meta name="theme-color" content="#282a2c">
-    <meta itemprop="image" content="http://www.whalez.cn/wp-content/themes/kratos-main/assets/img/default.jpg" />
-    <meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='//cdn.seatonjiang.com' />
-<link rel='stylesheet' id='classic-theme-styles-css' href='http://www.whalez.cn/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
-<style id='global-styles-inline-css' type='text/css'>
-body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}
-.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
-</style>
-<link rel='stylesheet' id='bootstrap-css' href='https://cdn.seatonjiang.com/kratos/4.1.5/assets/css/bootstrap.min.css?ver=4.5.0' type='text/css' media='all' />
-<link rel='stylesheet' id='kicon-css' href='https://cdn.seatonjiang.com/kratos/4.1.5/assets/css/iconfont.min.css?ver=4.1.5' type='text/css' media='all' />
-<link rel='stylesheet' id='layer-css' href='https://cdn.seatonjiang.com/kratos/4.1.5/assets/css/layer.min.css?ver=3.1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='lightgallery-css' href='https://cdn.seatonjiang.com/kratos/4.1.5/assets/css/lightgallery.min.css?ver=1.4.0' type='text/css' media='all' />
-<link rel='stylesheet' id='kratos-css' href='https://cdn.seatonjiang.com/kratos/4.1.5/style.css?ver=4.1.5' type='text/css' media='all' />
-<style id='kratos-inline-css' type='text/css'>
-
-        @media screen and (min-width: 992px) {
-            .k-nav .navbar-brand h1 {
-                color: #ffffff;
-            }
-            .k-nav .navbar-nav > li.nav-item > a {
-                color: #ffffff;
-            }
+    <meta charset="UTF-8" />
+    <title>智能薪资计算器</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        
-</style>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/jquery.min.js?ver=3.4.1' id='jquery-js'></script>
-<script></script></head>
+
+        .calculator-container {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 0 20px #00ffff;
+            width: 100%;
+            max-width: 450px;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .input-group {
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #cce6ff;
+        }
+
+        input[type="number"],
+        input[type="time"] {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 10px;
+            background: #1e1e1e;
+            color: #ffffff;
+            font-size: 1rem;
+        }
+
+        button {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #00ffff, #00ccff);
+            color: #000000;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        .result-container {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #0a0a0a;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .result-title {
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+            color: #00ffff;
+        }
+
+        .clock {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            color: #ff00ff;
+        }
+
+        .error-message {
+            color: #ff4444;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .progress-bar {
+            height: 20px;
+            width: 100%;
+            background: #1e1e1e;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #00ffcc, #00ccff);
+            transition: width 0.5s ease-in-out;
+        }
+
+        .static-results {
+            margin-top: 1.5rem;
+            text-align: left;
+        }
+
+        .static-result-item {
+            margin: 0.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        #remaining-time {
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            color: #00ffff;
+        }
+    </style>
+</head>
 
 <body>
-    <div class="k-header">
-        <nav class="k-nav navbar navbar-expand-lg navbar-light fixed-top" >
-            <div class="container">
-                <a class="navbar-brand" href="http://www.whalez.cn">
-                    <h1>长岛冰茶@</h1>                </a>
-                            </div>
-        </nav>
-                    <div class="banner">
-                <div class="overlay"></div>
-                <div class="content text-center" style="background-image: url(http://www.whalez.cn/wp-content/themes/kratos-main/assets/img/background.jpg);">
-                    <div class="introduce animate__animated animate__fadeInUp">
-                        <div class="title">Kratos</div><div class="mate">一款专注于用户阅读体验的响应式博客主题</div>                    </div>
-                </div>
+    <div class="calculator-container">
+        <h2>💰 智能薪资计算器</h2>
+
+        <div class="input-group">
+            <label for="salary">请输入月薪（元）</label>
+            <input type="number" id="salary" placeholder="例如 15000" />
+        </div>
+
+        <div class="input-group">
+            <label for="start">上班时间</label>
+            <input type="time" id="start" step="1" />
+        </div>
+
+        <div class="input-group">
+            <label for="end">下班时间</label>
+            <input type="time" id="end" step="1" />
+        </div>
+
+        <button onclick="calculate()">立即计算</button>
+
+        <div class="result-container" id="result-container">
+            <div class="result-title" id="result-title">薪资详情</div>
+            <div class="clock" id="current-time">当前时间：--:--:--</div>
+
+            <div class="result-text" id="result-text">累计工资：￥0.00</div>
+            <div id="remaining-time">剩余时间：--:--:--</div>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
             </div>
-            </div><div class="k-main banner" style="background:#f5f5f5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 board">
-                <div class="article-panel">
-    <span class="a-card d-none d-md-block d-lg-block">
-            </span>
-            <div class="a-thumb">
-            <a href="http://www.whalez.cn/index.php/2022/12/07/hello-world/">
-                <img src="http://www.whalez.cn/wp-content/themes/kratos-main/assets/img/default.jpg" />            </a>
-        </div>
-        <div class="a-post 1">
-        <div class="header">
-            <a class="label" href="http://www.whalez.cn/index.php/category/uncategorized/">未分类<i class="label-arrow"></i></a>            <h3 class="title"><a href="http://www.whalez.cn/index.php/2022/12/07/hello-world/">世界，您好！</a></h3>
-        </div>
-        <div class="content">
-            <p>欢迎使用WordPress。这是您的第一篇文章。编辑或删除它，然后开始写作吧！</p>
+
+            <div class="static-results" id="static-results"></div>
+
+            <div class="error-message" id="error-message"></div>
         </div>
     </div>
-    <div class="a-meta">
-        <span class="float-left d-none d-md-block">
-            <span class="mr-2"><i class="kicon i-calendar"></i>2022年 12月 7日</span>
-                            <span class="mr-2"><i class="kicon i-comments"></i>1条评论</span>
-                    </span>
-        <span class="float-left d-block">
-                            <span class="mr-2"><i class="kicon i-hot"></i>17点热度</span>
-                            <span class="mr-2"><i class="kicon i-good"></i>0人点赞</span>
-                            <span class="mr-2"><i class="kicon i-author"></i>zxyznj</span>
-                    </span>
-        <span class="float-right">
-            <a href="http://www.whalez.cn/index.php/2022/12/07/hello-world/">阅读全文<i class="kicon i-rightbutton"></i></a>
-        </span>
-    </div>
-</div>
-            </div>
-            <div class="col-lg-4 sidebar sticky-sidebar d-none d-lg-block">
-                <div class="widget widget_block widget_search"><form role="search" method="get" action="http://www.whalez.cn/" class="wp-block-search__button-outside wp-block-search__text-button wp-block-search"><label for="wp-block-search__input-1" class="wp-block-search__label" >搜索</label><div class="wp-block-search__inside-wrapper " ><input type="search" id="wp-block-search__input-1" class="wp-block-search__input wp-block-search__input" name="s" value="" placeholder=""  required /><button type="submit" class="wp-block-search__button wp-element-button"  >搜索</button></div></form></div><div class="widget widget_block"><div class="is-layout-flow wp-block-group"><div class="wp-block-group__inner-container"><h2>近期文章</h2><ul class="wp-block-latest-posts__list wp-block-latest-posts"><li><a class="wp-block-latest-posts__post-title" href="http://www.whalez.cn/index.php/2022/12/07/hello-world/">世界，您好！</a></li>
-</ul></div></div></div><div class="widget widget_block"><div class="is-layout-flow wp-block-group"><div class="wp-block-group__inner-container"><h2>近期评论</h2><ol class="wp-block-latest-comments"><li class="wp-block-latest-comments__comment"><article><footer class="wp-block-latest-comments__comment-meta"><a class="wp-block-latest-comments__comment-author" href="https://cn.wordpress.org/">一位WordPress评论者</a>发表在<a class="wp-block-latest-comments__comment-link" href="http://www.whalez.cn/index.php/2022/12/07/hello-world/#comment-1">世界，您好！</a></footer></article></li></ol></div></div></div>            </div>
-        </div>
-    </div>
-</div>
-<div class="k-footer">
-    <div class="f-toolbox">
-        <div class="gotop ">
-            <div class="gotop-btn">
-                <span class="kicon i-up"></span>
-            </div>
-        </div>
-                <div class="search">
-            <span class="kicon i-find"></span>
-            <form class="search-form" role="search" method="get" action="http://www.whalez.cn/">
-                <input type="text" name="s" id="search-footer" placeholder="搜点什么呢?" style="display:none" />
-            </form>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <p class="social">
-                                    </p>
-                <p>COPYRIGHT © 2022 长岛冰茶@. ALL RIGHTS RESERVED.</p><p>Theme <a href="https://github.com/seatonjiang/kratos" target="_blank" rel="nofollow">Kratos</a> Made By <a href="https://seatonjiang.com" target="_blank" rel="nofollow">Seaton Jiang</a></p>            </div>
-        </div>
-    </div>
-</div>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/bootstrap.bundle.min.js?ver=4.5.0' id='bootstrap-bundle-js'></script>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/layer.min.js?ver=3.1.1' id='layer-js'></script>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/DPlayer.min.js?ver=4.1.5' id='dplayer-js'></script>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/lightgallery.min.js?ver=1.4.0' id='lightgallery-js'></script>
-<script type='text/javascript' id='kratos-js-extra'>
-/* <![CDATA[ */
-var kratos = {"site":"http:\/\/www.whalez.cn","directory":"https:\/\/cdn.seatonjiang.com\/kratos\/4.1.5","alipay":"http:\/\/www.whalez.cn\/wp-content\/themes\/kratos-main\/assets\/img\/200.png","wechat":"http:\/\/www.whalez.cn\/wp-content\/themes\/kratos-main\/assets\/img\/200.png","lightgallery":"1","repeat":"\u60a8\u5df2\u7ecf\u8d5e\u8fc7\u4e86","thanks":"\u611f\u8c22\u60a8\u7684\u652f\u6301","donate":"\u6253\u8d4f\u4f5c\u8005","scan":"\u626b\u7801\u652f\u4ed8"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/kratos.js?ver=4.1.5' id='kratos-js'></script>
-<script type='text/javascript' id='comment-js-extra'>
-/* <![CDATA[ */
-var ajaxcomment = {"ajax_url":"http:\/\/www.whalez.cn\/wp-admin\/admin-ajax.php","order":"asc","compost":"\u8bc4\u8bba\u6b63\u5728\u63d0\u4ea4\u4e2d","comsucc":"\u8bc4\u8bba\u63d0\u4ea4\u6210\u529f"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://cdn.seatonjiang.com/kratos/4.1.5/assets/js/comments.min.js?ver=4.1.5' id='comment-js'></script>
+
+    <script>
+        let timer = null;
+        let totalWorkSeconds = 0;
+        let startSec = 0;
+        let endSec = 0;
+        let dailySalary = 0;
+
+        function calculate() {
+            const salary = parseFloat(document.getElementById('salary').value);
+            const startInput = document.getElementById('start').value;
+            const endInput = document.getElementById('end').value;
+
+            document.getElementById('error-message').textContent = "";
+            document.getElementById('result-text').textContent = "累计工资：￥0.00";
+            document.getElementById('progress-fill').style.width = "0%";
+            document.getElementById('static-results').innerHTML = "";
+            document.getElementById('remaining-time').textContent = "剩余时间：--:--:--";
+
+            if (isNaN(salary) || salary <= 0) {
+                showError("请输入有效的月薪（必须大于0）");
+                return;
+            }
+
+            if (!startInput || !endInput) {
+                showError("请选择完整的上下班时间");
+                return;
+            }
+
+            const start = parseTime(startInput);
+            const end = parseTime(endInput);
+
+            if (end <= start) {
+                showError("下班时间必须晚于上班时间");
+                return;
+            }
+
+            startSec = start;
+            endSec = end;
+            totalWorkSeconds = end - start;
+            dailySalary = salary / 22;
+
+            showStaticResults(salary, totalWorkSeconds / 3600);
+
+            if (timer) clearInterval(timer);
+            timer = setInterval(updateEarnings, 1000);
+        }
+
+        function updateEarnings() {
+            const now = new Date();
+            const currentSec = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+
+            document.getElementById('current-time').textContent =
+                `当前时间：${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+
+            if (currentSec < startSec || currentSec >= endSec) {
+                document.getElementById('result-text').textContent = "累计工资：￥0.00";
+                document.getElementById('progress-fill').style.width = "0%";
+                document.getElementById('remaining-time').textContent = "剩余时间：--:--:--";
+                return;
+            }
+
+            if (currentSec >= endSec) {
+                clearInterval(timer);
+                const finalEarnings = dailySalary;
+                document.getElementById('result-text').textContent = `累计工资：￥${finalEarnings.toFixed(2)}（今日工作结束）`;
+                document.getElementById('progress-fill').style.width = "100%";
+                document.getElementById('remaining-time').textContent = "剩余时间：00:00:00";
+                return;
+            }
+
+            const workedSeconds = currentSec - startSec;
+            const progressPercent = (workedSeconds / totalWorkSeconds) * 100;
+            const earnings = (workedSeconds / totalWorkSeconds) * dailySalary;
+
+            document.getElementById('result-text').textContent = `累计工资：￥${earnings.toFixed(2)}`;
+            document.getElementById('progress-fill').style.width = `${progressPercent}%`;
+
+            const remainingSeconds = totalWorkSeconds - workedSeconds;
+            document.getElementById('remaining-time').textContent = `剩余时间：${formatTime(remainingSeconds)}`;
+        }
+
+        function showStaticResults(salary, dailyWorkHours) {
+            const resultsContainer = document.getElementById('static-results');
+
+            const hourly = (salary / 22) / dailyWorkHours;
+            const monthly = salary;
+            const yearly = salary * 12;
+            const fiveYears = salary * 60;
+            const tenYears = salary * 120;
+
+            const html = `
+        <div class="static-result-item">每小时工资：￥${hourly.toFixed(2)}</div>
+        <div class="static-result-item">每日工资：￥${(salary / 22).toFixed(2)}</div>
+        <div class="static-result-item">每月工资：￥${monthly.toLocaleString()}</div>
+        <div class="static-result-item">每年工资：￥${yearly.toLocaleString()}</div>
+        <div class="static-result-item">5年累计：￥${fiveYears.toLocaleString()}</div>
+        <div class="static-result-item">10年累计：￥${tenYears.toLocaleString()}</div>
+      `;
+
+            resultsContainer.innerHTML = html;
+        }
+
+        function parseTime(timeStr) {
+            const [hours, minutes] = timeStr.split(':').map(Number);
+            return hours * 3600 + minutes * 60;
+        }
+
+        function formatTime(seconds) {
+            const h = Math.floor(seconds / 3600);
+            const m = Math.floor((seconds % 3600) / 60);
+            const s = seconds % 60;
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        }
+
+        function showError(message) {
+            document.getElementById('error-message').textContent = message;
+            document.getElementById('result-text').textContent = "累计工资：￥0.00";
+            document.getElementById('progress-fill').style.width = "0%";
+            document.getElementById('remaining-time').textContent = "剩余时间：--:--:--";
+        }
+
+        // 页面加载时启动自动刷新时间显示
+        setInterval(() => {
+            const now = new Date();
+            document.getElementById('current-time').textContent =
+                `当前时间：${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}:${String(now.getSeconds()).padStart(2, '0')}`;
+        }, 1000);
+    </script>
 </body>
 
 </html>
